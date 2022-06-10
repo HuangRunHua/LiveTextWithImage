@@ -11,6 +11,8 @@
 		BDD13232285217CA00C69619 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD13231285217CA00C69619 /* ContentView.swift */; };
 		BDD13234285217CA00C69619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD13233285217CA00C69619 /* Assets.xcassets */; };
 		BDD13237285217CA00C69619 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD13236285217CA00C69619 /* Preview Assets.xcassets */; };
+		BDD1323E28521D7000C69619 /* LiveTextInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1323D28521D7000C69619 /* LiveTextInteraction.swift */; };
+		BDD1324028521E6200C69619 /* LiveTextInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1323F28521E6200C69619 /* LiveTextInteractionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDD13231285217CA00C69619 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD13233285217CA00C69619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD13236285217CA00C69619 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD1323D28521D7000C69619 /* LiveTextInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextInteraction.swift; sourceTree = "<group>"; };
+		BDD1323F28521E6200C69619 /* LiveTextInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextInteractionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BDD1322F285217CA00C69619 /* LiveTextWithImageApp.swift */,
 				BDD13231285217CA00C69619 /* ContentView.swift */,
+				BDD1323F28521E6200C69619 /* LiveTextInteractionView.swift */,
+				BDD1323D28521D7000C69619 /* LiveTextInteraction.swift */,
 				BDD13233285217CA00C69619 /* Assets.xcassets */,
 				BDD13235285217CA00C69619 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD1324028521E6200C69619 /* LiveTextInteractionView.swift in Sources */,
 				BDD13232285217CA00C69619 /* ContentView.swift in Sources */,
 				BDD13230285217CA00C69619 /* LiveTextWithImageApp.swift in Sources */,
+				BDD1323E28521D7000C69619 /* LiveTextInteraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
