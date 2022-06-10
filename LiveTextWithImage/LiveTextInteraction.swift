@@ -33,7 +33,7 @@ struct LiveTextInteraction: UIViewRepresentable {
                     let analysis = try await analyzer.analyze(image, configuration: configuration)
                     if let analysis = analysis {
                         interaction.analysis = analysis;
-                        interaction.preferredInteractionTypes = .automatic
+                        interaction.preferredInteractionTypes = .textSelection
                     }
                 }
             }
